@@ -1,33 +1,195 @@
-.App {
-  text-align: center;
-}
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:hover {
+  text-decoration: none;
+}
+.topbar {
+  background-color: black;
+  font-size: 15px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.topbar a {
+  text-decoration: none;
+  color: gray;
+}
+
+.currency {
+  margin-left: auto;
+}
+
+.midd {
+  margin: auto;
+}
+
+.items {
+  margin-right: auto;
+}
+
+.items a:hover {
+  background: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#navbarSupportedContent ul a {
+  color: gray;
+  font-size: 15px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-right: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#navbarSupportedContent ul a:hover {
+  background: blue;
+  color: white;
+  border-radius: 10px;
+}
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 70px;
+}
+.navbar-brand span {
+  font-weight: lighter;
+}
+
+.Brand-link:hover {
+  text-decoration: none;
+  display: flex;
+}
+.form-control {
+  font-size: 15px;
+}
+.btn {
+  font-size: 15px;
+}
+
+.banner img {
+  height: 500px;
+}
+
+.banner a {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  text-decoration: none;
+  background-color: white;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  border-radius: 2px;
+  border: 0.5px solid black;
+  color: gray;
+}
+
+.banner a:hover {
+  background-color: Blue;
+  color: white;
+}
+.banner {
+  position: relative;
+}
+.footer {
+  background-color: gainsboro;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-top: 40px;
+  font-size: 12px;
+}
+.menu h6 {
+  font-weight: bold;
+}
+.menu a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.menu ul {
+  list-style: none;
+  text-align: start;
+}
+
+.award {
+  background-color: black;
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+.award p {
+  letter-spacing: 5px;
+  padding-bottom: 15px;
+}
+.award h3 {
+  padding-top: 15px;
+}
+.icons {
+  background-color: blue;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.icons ul {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.icons a {
+  color: white;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 2px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: 0.5px solid black;
+  color: gray;
+  text-align: center;
+}
+.button:hover {
+  background-color: Blue;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
+#checkbox {
+  font-size: 15px;
+}
+
+.create-btn {
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 10px 10px;
+  border: 0.5px solid black;
+  color: gray;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.create-btn:hover {
+  background-color: Blue;
+  color: white;
 }
