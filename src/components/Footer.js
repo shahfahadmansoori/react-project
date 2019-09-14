@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => (
   <div className="footer">
     <div className="container">
-      <div className="menu">
-        <div className="row col-12">
+      <div className="row">
+        <div className="menu">
           <div className="col-2">
-            <h6>Information</h6>
+            <h5>Information</h5>
             <ul>
               <li>
                 <a href="#">The brand</a>
@@ -21,13 +21,12 @@ const Footer = () => (
                 <a href="#">Privacy & cookies</a>
               </li>
               <li>
-                {" "}
                 <a href="#">Site map</a>
               </li>
             </ul>
           </div>
           <div className="col-2">
-            <h6>WHY BUY FROM US</h6>
+            <h5>WHY BUY FROM US</h5>
             <ul>
               <li>
                 <a href="#">Shipping & returns</a>
@@ -47,25 +46,21 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-2">
-            <h6>Your account</h6>
+            <h5>Your account</h5>
             <ul>
               <li>
-                {" "}
                 <a href="#"> Sign in</a>
               </li>
               <li>
-                {" "}
                 <a href="#">Register</a>
               </li>
               <li>
                 <a href="#">View cart</a>
               </li>
               <li>
-                {" "}
                 <a href="#">View your lookbook</a>
               </li>
               <li>
-                {" "}
                 <a href="#">Track an order</a>
               </li>
               <li>
@@ -74,7 +69,7 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-2">
-            <h6>LOOKBOOK</h6>
+            <h5>LOOKBOOK</h5>
             <ul>
               <li>
                 <a href="#">Latest posts</a>
@@ -97,7 +92,7 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-3">
-            <h6>contact details</h6>
+            <h5>contact details</h5>
             <ul>
               <li>
                 <a href="#">
@@ -115,7 +110,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="row col-12">
+      <div className="row">
         <div className="col-6">
           <div className="award">
             <h3>AWARD WINNER</h3>

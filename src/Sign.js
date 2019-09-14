@@ -1,8 +1,10 @@
 import React from "react";
 import Layout from "./Layout";
+import BrandBanner from "./components/BrandBanner";
 
 const SignIn = () => (
   <Layout>
+    <BrandBanner />
     <div className="container">
       <div className="row sign-up">
         <div className="col-6">
@@ -74,7 +76,7 @@ const SignIn = () => (
                 contests, and more!
               </p>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between pt-3">
               <a href="# " className="create-btn">
                 Create Acount
               </a>

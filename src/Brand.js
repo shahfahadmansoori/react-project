@@ -1,12 +1,14 @@
 import React from "react";
 import Layout from "./Layout";
-import { Link } from "react-router-dom";
+
+import BrandBanner from "./components/BrandBanner";
+import Content from "./components/Content";
 
 const Brand = () => (
   <div className="Brand">
     <Layout>
-      <h2>About Page</h2>
-      <Link to="/">Home</Link>
+      <BrandBanner />
+      <Content />
     </Layout>
   </div>
 );
